@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 12%;
+    width: 100%;
+    background-color: rgb(255, 251, 251);
+    display: flex;
+    justify-content: space-between;
+}
+.channel{
+    width: 16%;
+    height: 54%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+#cname{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    margin-left: 2.5%;
+}
+.heading{
+    color: white;
+    font-family: Arial;
+    /* border: solid black; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.conatinor{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+.middle{
+    width: 60%;
+     display: flex; 
+    /* border: solid black; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+} 
+.end{
+    /* border: solid black; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.body{
+    width: 100%;
+    background-color: rgb(255, 251, 251);
+    height: 88%;
+    display: flex;
+}
+.left-container{
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgb(255, 251, 251);
+}
+.right-container::-webkit-scrollbar{
+    scroll-snap-type: none;
+}
+.left-container::-webkit-scrollbar{
+    scroll-snap-type: none;
+}
+.right-container{
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgb(255, 251, 251);
+    position: relative;
+}
+.middle-container{
+    width: 60%;
+    height: 100%;
+}
+.post-container{
+    margin-top: 2%;
+    height: 90%;
+    overflow-y: scroll;
+}
+.post-container::-webkit-scrollbar{
+    scroll-snap-type: none;
+}
+.create-post{
+    width: 88.5%;
+    height: 12%;
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    margin-left: 5%;
+}
+#camera-icon{
+    position: absolute;
+    top:40%;
+    left:73%;
+    color: rgb(148, 148, 148);
+}
+#link-icon{
+    color: rgb(148, 148, 148);
+    position: absolute;
+    top: 40%;
+    left: 77%;
+}
+
+#home{
+    font-size:4.5vh;
+    width:5vw ;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(154, 150, 150);
+    font-weight:1000;
+}
+#home:hover{
+    color:rgb(255, 0, 0);
+    cursor:pointer;
+}
+#apps{
+    font-size:4.5vh;
+    width:5vw ;
+    height: 11.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(154, 150, 150);
+    font-weight:1000;    
+}
+#apps:hover{
+    color:rgb(255, 0, 0);
+    cursor:pointer;
+}
+#group{
+    font-size:4.5vh;
+    width:5vw ;
+    height: 11.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(154, 150, 150);
+    font-weight:1000;
+}
+#group:hover{
+    color:rgb(255, 0, 0);
+    cursor:pointer;
+}
+#trending{
+    font-size:4vh;
+    width:5vw ;
+    height: 11.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(154, 150, 150);
+    font-weight:1000;   
+}
+#trending:hover{
+    color:rgb(255, 0, 0);
+    cursor:pointer;
+}
+.post{
+    width: 90%;
+    height:83%;
+    margin-top: 3%;
+    vertical-align: middle;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: rgb(243, 242, 242);
+    border-radius: 23px;
+}
+.hot{
+    width: 90%;
+    height: 42%;
+    background-color: rgb(243, 242, 242);
+    margin-bottom: 10%;
+    margin-left: 5%;
+    padding-left: 5%;
+    border-radius: 10%;
+}
+.communities{
+    width: 95%;
+    height: 83%;
+    margin-left: 5%;
+    background-color: rgb(243, 242, 242);
+    border-radius: 29px;
+}
+.popular-post{
+    width: 95%;
+    height: 32%;
+    background-color: rgb(243, 242, 242);
+    margin-bottom: 5%;
+    margin-left: 5%;
+    border-radius: 29px;
+}
+.live{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(243, 242, 242);
+    position: absolute;
+    margin-left: 5%;
+    border-radius: 29px;
+}
+.search{
+    width: 45%;
+    height: 100%;
+    position:relative;
+
+}
+.but {
+    width: 90%;
+    height: 38%;
+    margin-top: 6.5%;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(226, 225, 225);
+}
+.but::placeholder{
+    color: #999;    
+    font-size: 12px;   
+    padding-left: 12%;
+}
+.pro{
+    width: 30px;
+    height: 30px;
+}
+.profile{
+    margin-left: 3%;
+}
+.photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.notify{
+    background-color: red;
+    border-radius: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: -20px;
+    left: -14px;
+    vertical-align: middle;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.proname{
+    color: black;
+    font-weight: bold;
+}
+.headline{
+    display: flex;
+    flex-direction: row;
+    font-size: 115%;
+    font-style: inherit;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    padding: 8% 0% 8% 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 30px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-top: 5px;
+}
+.hot-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:17px;
+    font-weight: bolder;
+    padding: 8% 0% 1% 2%;
+}
+.pro1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.hot1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2% 0%;
+}
+.post-profile{
+    width: 70%;
+    height: 90%;
+    padding: 1.9%;
+    border-radius: 50%;
+}
+.post-file{
+    width: 10%;
+    height: 80%;
+    margin-top: 0.5%;
+}
+.create-post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+.search-bar{
+    width: 96%;
+    height: 78%;
+    border-radius: 40px;
+    border: 0;
+    align-items: center;
+    margin-top: 1.2%;
+    background-color:   rgb(230, 229, 229);
+}
+.search-bar::placeholder{
+    color: rgb(148, 148, 148);
+    padding-left: 4%;
+    font-size:100%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.create-button{
+    width: 6vw;
+    height: 6vh;
+    border:0px;
+    margin-top: 1.2%;
+    color: white;
+    background-color: orangered;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 22px;
+}
+.red-live{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6% 8% 3% 8%;
+    margin-top: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 19px;
+}
+.live-buttton{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 12%;
+    left: 10px;
+    padding: 1% 5%;
+    border-radius: 40px;
+}
+.live-photo{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.live-#tag{
+    font-size: 15px;
+    font-weight: bold;
+    font-weight:bolder;
+    color:rgb(154, 151, 151);
+}
+.lives-photos{
+    width: 75%;
+    height: 95%;
+    border-radius: 25%;
+}
+.followers{
+    margin-left: 7%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+.follower-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.community-name{
+    display: flex; 
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 6% 8%;
+}
+.community1{
+    width: 8vw;
+    height: 20vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(226, 225, 225);
+}
+.community1-photo{
+    width:100%;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+.community-follow{
+    display: grid;
+    grid: 1;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+    place-content: center;
+    margin-top: 0px;
+    row-gap: 10px;
+    column-gap: 0vw;
+    /* gr: 0%; */
+    /* height: 100vh; */
+}
+.post-title{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 2%;
+}
+.post-content{
+    height: 100%;
+    width: 5%;
+    display:flex;
+    align-items: center;
+}
+.picture{
+    width: 100%;
+    height: 80%;
+    border-radius: 50% ;
+}
+.post-name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+.post-photocontent{
+    width: 95%;
+    font-size: 2.086vw;
+    font-weight: bold;
+    margin-left: 2.7%;
+    margin-bottom: 2%;
+}
+.post-photo{
+    background-color: black;
+    height:39vh;
+    width: 94%;
+    border-radius: 20px;
+
+}
+.left-post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+.right-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+    
+.inright{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 200, 200);
+    width: 40%;
+    border-radius: 25px;
+    height: 25%;
+    align-items: center;
+    padding: 5% 10%;
+    margin-right: 3%;
+    color: rgb(103, 101, 101) ;
+
+}
+.comments-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 20%;
+    margin-top: 3%;
+    /* border: solid blac/k/; */
+    margin-left: 2%;
+}
+.share-icon{
+    background-color: rgb(202, 200, 200);
+    width:40%;
+    height: 55%;
+    color: rgb(103, 101, 101);
+    padding: 0% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-right: 3%;
+}
+.like-icon{
+    color: rgb(103, 101, 101);
+    width: 29%;
+    height: 55%;
+    background-color: rgb(202, 200, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+    
